@@ -1,10 +1,14 @@
 <script>
   import axios from 'axios';
   import { store } from './store.js';
+
+  import MyHeader from './components/MyHeader.vue';
   import MyMain from './components/MyMain.vue';
 
   export default {
     components: {
+      MyHeader,
+      MyMain
     },
       data() {
         return {
@@ -29,7 +33,7 @@
 
 
 <template>
-
+  <MyHeader/>
 </template>
 
 

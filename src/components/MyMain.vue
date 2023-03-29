@@ -1,5 +1,7 @@
 <script>
-
+    export default {
+        MyMain
+    }
 </script>
 
 
@@ -8,6 +10,6 @@
 </template>
 
 
-<style>
+<style scoped lang="scss"> 
 
 </style>
