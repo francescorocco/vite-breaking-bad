@@ -34,10 +34,16 @@
 
 <template>
   <MyHeader/>
+  <MyMain/>
 </template>
 
 
 <style lang="scss">
   @use './styles/general.scss';
 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 </style>
