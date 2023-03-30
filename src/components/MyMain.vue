@@ -1,9 +1,11 @@
 <script>
     import CardList from './CardList.vue';
+    
     export default {
         name: "MyMain",
         components:{
-            CardList
+            CardList,
+            
         }
 
         

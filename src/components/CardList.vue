@@ -19,7 +19,7 @@
 <template>
     <div class="ms-container d-flex">
         <div class="card-wrapper" v-for="(card, index) in store.cardList" :key="index">
-            <CardOfCard :image="card.card_images[0].image_url" :name="card.name" :race="card.race"/>
+            <CardOfCard :image="card.card_images[0].image_url" :name="card.name" :archetype="card.archetype"/>
         </div>
     </div>
 </template>
@@ -35,6 +35,7 @@
 
     .card-wrapper{
         width: calc(100% / 5 - 50px);
+        min-width: 200px;
         margin: 5px 5px;
         background-color: rgb(212, 143, 56);
     }
